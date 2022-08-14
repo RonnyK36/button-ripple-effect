@@ -31,14 +31,14 @@ body {
     height: 0;
     background-color: yellow;
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: var(--xPosition);
+    top: var(--yPosition);
     transform: translate(-50%, -50%);
     border-radius: 50%;
     transition: width 0.5s, height 0.5s;
 }
 
 .btn:hover::before {
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
 }
